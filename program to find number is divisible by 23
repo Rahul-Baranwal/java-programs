@@ -1,0 +1,14 @@
+public class Main
+{
+	public static void main(String[] args) {
+		int sum=0,count=0;
+		for(int i = 10;i<=150;i++){
+		    if(i%23==0){
+		        System.out.println("Number is divisible by 23");
+		    }
+		    else{
+		        System.out.println("NUmber is not divisible by 23");
+		    }
+		}
+	}
+}
